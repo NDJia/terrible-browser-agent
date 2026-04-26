@@ -1,0 +1,26 @@
+{
+  "description": "A browser \"AI agent\" that does everything you didn't know you needed.",
+  "manifest_version": 3,
+  "name": "TerribleWebAgent",
+  "version": "1.0",
+  "icons": {
+  },
+
+  "permissions": ["tabs", "activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "webagent@ndjia.net",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },
+
+
+  "action": {
+    "default_title": "Web Agent",
+    "default_popup": "prompt_window.html"
+  }
+
+}
