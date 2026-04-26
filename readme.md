@@ -1,6 +1,6 @@
 # Terrible AI Agent
 
-by @ndjia
+by N.D. Jia
 
 A browser extension to have an "AI" agent browse the web for you.
 
